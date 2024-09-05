@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+	scroll-behavior: smooth;
+	background-color: #27272a;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(16, 185, 129, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(16, 185, 129, 1);
+	min-height: 100px;
+	border-radius: 4px;
+}

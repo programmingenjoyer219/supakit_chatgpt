@@ -23,9 +23,11 @@
 			></i>
 		{/if}
 	</div>
-	<p class="prose prose-invert max-w-full prose-sm sm:prose-base">
+	<div
+		class="prose prose-invert max-w-full prose-sm sm:prose-base overflow-x-auto"
+	>
 		<slot></slot>
-	</p>
+	</div>
 </div>
 
 <style>

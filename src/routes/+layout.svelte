@@ -12,6 +12,10 @@
 	$: loggedIn = !!$user;
 </script>
 
+<svelte:head>
+	<title>Supakit_ChatGPT</title>
+</svelte:head>
+
 <main class="bg-zinc-800 min-h-screen">
 	{#if !loggedIn}
 		<Login />

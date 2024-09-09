@@ -10,7 +10,7 @@
 </script>
 
 <section
-	class="container mx-auto min-h-screen grid place-content-center text-center gap-4 text-yellow-400"
+	class="container mx-auto min-h-dvh grid place-content-center text-center gap-4 text-yellow-400"
 >
 	{#if status === 404}
 		<i class="ri-robot-2-fill text-9xl"></i>

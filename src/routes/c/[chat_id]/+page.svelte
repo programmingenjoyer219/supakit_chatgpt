@@ -107,7 +107,7 @@
 
 <section
 	id="chat-page-section"
-	class="min-h-screen container mx-auto max-w-4xl py-[5rem] px-4 flex flex-col lg:pt-[1rem]"
+	class="min-h-dvh container mx-auto max-w-4xl py-[5rem] px-4 flex flex-col lg:pt-[1rem]"
 >
 	<!-- message section -->
 	<div class="flex flex-col gap-6 flex-1">

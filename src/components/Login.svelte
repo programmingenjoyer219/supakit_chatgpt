@@ -14,7 +14,7 @@
 </script>
 
 <section>
-	<div class="min-h-screen grid place-content-center place-items-center gap-4">
+	<div class="min-h-dvh grid place-content-center place-items-center gap-4">
 		<h1 class="text-5xl font-bold text-emerald-500">ChatGPT</h1>
 		<i
 			class="ri-openai-fill text-emerald-500 text-9xl {loadingState &&

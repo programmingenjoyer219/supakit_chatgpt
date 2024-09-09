@@ -16,7 +16,7 @@
 	<title>Supakit_ChatGPT</title>
 </svelte:head>
 
-<main class="bg-zinc-800 min-h-screen">
+<main class="bg-zinc-800 min-h-dvh">
 	{#if !loggedIn}
 		<Login />
 	{:else}
